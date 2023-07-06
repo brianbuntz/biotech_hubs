@@ -76,7 +76,7 @@
 
         
             
-                var html_095442e9dd7418fe03ab9f7c9fa45d94 = $(`<div id="html_095442e9dd7418fe03ab9f7c9fa45d94" style="width: 100.0%; height: 100.0%;">Boston & Cambridge, Massachusetts</div>`)[0];
+                var html_095442e9dd7418fe03ab9f7c9fa45d94 = $(`<div id="html_095442e9dd7418fe03ab9f7c9fa45d94" style="width: 100.0%; height: 100.0%;">Boston & Cambridge, Massachusetts: Home to Harvard University and MIT, and one of the most highest concentrations of biotech firms in the world.</div>`)[0];
                 popup_5f9e77ff047fde6f968cdface0706eb2.setContent(html_095442e9dd7418fe03ab9f7c9fa45d94);
             
         
@@ -97,7 +97,7 @@
 
         
             
-                var html_be64581ec7e402d00091ccb6ae96fb92 = $(`<div id="html_be64581ec7e402d00091ccb6ae96fb92" style="width: 100.0%; height: 100.0%;">San Francisco Bay Area, California</div>`)[0];
+                var html_be64581ec7e402d00091ccb6ae96fb92 = $(`<div id="html_be64581ec7e402d00091ccb6ae96fb92" style="width: 100.0%; height: 100.0%;">San Francisco Bay Area, California: Known as the birthplace of biotechnology</div>`)[0];
                 popup_524d006e1f085e2614ccb4a68e9560cd.setContent(html_be64581ec7e402d00091ccb6ae96fb92);
             
         
@@ -118,7 +118,7 @@
 
         
             
-                var html_8065f50db6374b349bbdc419a9709159 = $(`<div id="html_8065f50db6374b349bbdc419a9709159" style="width: 100.0%; height: 100.0%;">Los Angeles & San Diego, California</div>`)[0];
+                var html_8065f50db6374b349bbdc419a9709159 = $(`<div id="html_8065f50db6374b349bbdc419a9709159" style="width: 100.0%; height: 100.0%;">Los Angeles & San Diego, California. San Diego has one of the highest concentrations of biotech firms, while Los Angeles is a growing hub for biotech startups.</div>`)[0];
                 popup_d4536a8569062668a22fa6fbc2a8804f.setContent(html_8065f50db6374b349bbdc419a9709159);
             
         
@@ -139,7 +139,7 @@
 
         
             
-                var html_2a5f12730d665e23d7670d8bef3edf9d = $(`<div id="html_2a5f12730d665e23d7670d8bef3edf9d" style="width: 100.0%; height: 100.0%;">Chicago, Illinois</div>`)[0];
+                var html_2a5f12730d665e23d7670d8bef3edf9d = $(`<div id="html_2a5f12730d665e23d7670d8bef3edf9d" style="width: 100.0%; height: 100.0%;">Chicago, Illinois: The city boasts a rapidly growing biotech startup scene, and is home to many research institutions</div>`)[0];
                 popup_b52456191ede70469e9ef04fcc6ff676.setContent(html_2a5f12730d665e23d7670d8bef3edf9d);
             
         
@@ -160,7 +160,7 @@
 
         
             
-                var html_065910f148e5d07483856d494b42dc35 = $(`<div id="html_065910f148e5d07483856d494b42dc35" style="width: 100.0%; height: 100.0%;">Seattle, Washington</div>`)[0];
+                var html_065910f148e5d07483856d494b42dc35 = $(`<div id="html_065910f148e5d07483856d494b42dc35" style="width: 100.0%; height: 100.0%;">Seattle, Washington: Key players in the area include the Seagen, Fred Hutchinson Cancer Research Center and the University of Washington.</div>`)[0];
                 popup_f97390537762e58063a0290da53263bd.setContent(html_065910f148e5d07483856d494b42dc35);
             
         
@@ -181,7 +181,7 @@
 
         
             
-                var html_59d4bf2f5dce293d628ec1258c993147 = $(`<div id="html_59d4bf2f5dce293d628ec1258c993147" style="width: 100.0%; height: 100.0%;">Philadelphia, Pennsylvania</div>`)[0];
+                var html_59d4bf2f5dce293d628ec1258c993147 = $(`<div id="html_59d4bf2f5dce293d628ec1258c993147" style="width: 100.0%; height: 100.0%;">Philadelphia, Pennsylvania: Home to Avid Radiopharmaceuticals, Bioquark, Carisma Therapeutics and others. </div>`)[0];
                 popup_e379f41ffc6101df1c260cf20d6de37b.setContent(html_59d4bf2f5dce293d628ec1258c993147);
             
         
@@ -190,6 +190,22 @@
         ;
 
         
+
+            var marker_researchTriangle = L.marker(
+                [35.899167, -78.863611],
+                {}
+            ).addTo(map_89dfeb81dbd98902c847f3c290f2c8c2);
+
+        var popup_researchTriangle = L.popup({"maxWidth": "100%"});
+
+                var html_researchTriangle = $(`<div id="html_researchTriangle" style="width: 100.0%; height: 100.0%;">Research Triangle, North Carolina: One of the most prominent biotech clusters, with hundreds of life science companies and multiple top-tier research universities.</div>`)[0];
+                popup_researchTriangle.setContent(html_researchTriangle);
+
+
+    marker_researchTriangle.bindPopup(popup_researchTriangle);
+
+
+
     
     
             var marker_61f6584ef976db7b9f30cb1931a8aa00 = L.marker(
@@ -202,7 +218,7 @@
 
         
             
-                var html_b016b5c6df98edf66cb5229ba255c894 = $(`<div id="html_b016b5c6df98edf66cb5229ba255c894" style="width: 100.0%; height: 100.0%;">BioHealth Capital Region (Maryland, Washington D.C., Virginia)</div>`)[0];
+                var html_b016b5c6df98edf66cb5229ba255c894 = $(`<div id="html_b016b5c6df98edf66cb5229ba255c894" style="width: 100.0%; height: 100.0%;">BioHealth Capital Region (Maryland, Washington D.C., Virginia: Cluster bridges a multitude of governmental biomedical institutions and private companies</div>`)[0];
                 popup_38200c4e0fecfd20369bb27a8b786e29.setContent(html_b016b5c6df98edf66cb5229ba255c894);
             
         
@@ -223,7 +239,7 @@
 
         
             
-                var html_a1acb9e3021a2ab1e0a5cb148b52a543 = $(`<div id="html_a1acb9e3021a2ab1e0a5cb148b52a543" style="width: 100.0%; height: 100.0%;">New York & New Jersey</div>`)[0];
+                var html_a1acb9e3021a2ab1e0a5cb148b52a543 = $(`<div id="html_a1acb9e3021a2ab1e0a5cb148b52a543" style="width: 100.0%; height: 100.0%;">New York & New Jersey: Hosts vibrant biotech startups, fueled by strong venture capital funding and proximity to top-tier research institutions.</div>`)[0];
                 popup_7f7316b40a029d1c95e5ff26a5ec48fb.setContent(html_a1acb9e3021a2ab1e0a5cb148b52a543);
             
         
@@ -244,7 +260,7 @@
 
         
             
-                var html_f20b25dd6ac4d1032062c3fcefadb667 = $(`<div id="html_f20b25dd6ac4d1032062c3fcefadb667" style="width: 100.0%; height: 100.0%;">Oxford, United Kingdom</div>`)[0];
+                var html_f20b25dd6ac4d1032062c3fcefadb667 = $(`<div id="html_f20b25dd6ac4d1032062c3fcefadb667" style="width: 100.0%; height: 100.0%;">Oxford, United Kingdom: Not just home to the historic University of Oxford, but also a thriving hub of biotech with a signficant presence in cell and gene therapy.</div>`)[0];
                 popup_a6093b54056d5ffd6671b0deb0540ce8.setContent(html_f20b25dd6ac4d1032062c3fcefadb667);
             
         
@@ -265,7 +281,7 @@
 
         
             
-                var html_3665bc39e6ed688dd74d3d028e26f59a = $(`<div id="html_3665bc39e6ed688dd74d3d028e26f59a" style="width: 100.0%; height: 100.0%;">Cambridge, United Kingdom</div>`)[0];
+                var html_3665bc39e6ed688dd74d3d028e26f59a = $(`<div id="html_3665bc39e6ed688dd74d3d028e26f59a" style="width: 100.0%; height: 100.0%;">Cambridge, United Kingdom: A hotbed for biotech startups, particularly in genomics, and home to the renowned Cambridge Biomedical Campus.</div>`)[0];
                 popup_bab33898e517a58c9e97b95d9d9368f8.setContent(html_3665bc39e6ed688dd74d3d028e26f59a);
             
         
@@ -286,7 +302,7 @@
 
         
             
-                var html_274809bb35d6d0422a7c51438abd4cd2 = $(`<div id="html_274809bb35d6d0422a7c51438abd4cd2" style="width: 100.0%; height: 100.0%;">Berlin, Germany</div>`)[0];
+                var html_274809bb35d6d0422a7c51438abd4cd2 = $(`<div id="html_274809bb35d6d0422a7c51438abd4cd2" style="width: 100.0%; height: 100.0%;">Berlin, Germany: Hosting a vibrant biotech scene, it's home to the Berlin-Brandenburg biotech cluster known for medical technology.</div>`)[0];
                 popup_da64a111d546343dd53ee0715d97d6c8.setContent(html_274809bb35d6d0422a7c51438abd4cd2);
             
         
@@ -307,7 +323,7 @@
 
         
             
-                var html_acb7cd2131bf331b929cc6b3cdfff6b2 = $(`<div id="html_acb7cd2131bf331b929cc6b3cdfff6b2" style="width: 100.0%; height: 100.0%;">Basel, Switzerland</div>`)[0];
+                var html_acb7cd2131bf331b929cc6b3cdfff6b2 = $(`<div id="html_acb7cd2131bf331b929cc6b3cdfff6b2" style="width: 100.0%; height: 100.0%;">Basel, Switzerland: The global headquarters of pharmaceutical giants like Novartis and Roche, Basel is a powerhouse of pharmaceutical and biotech research.</div>`)[0];
                 popup_de5aa3db32d782b25a2863bfb1db29e3.setContent(html_acb7cd2131bf331b929cc6b3cdfff6b2);
             
         
@@ -328,7 +344,7 @@
 
         
             
-                var html_eb46666f470788f1e93bd06f9e15fbc8 = $(`<div id="html_eb46666f470788f1e93bd06f9e15fbc8" style="width: 100.0%; height: 100.0%;">Beijing, China</div>`)[0];
+                var html_eb46666f470788f1e93bd06f9e15fbc8 = $(`<div id="html_eb46666f470788f1e93bd06f9e15fbc8" style="width: 100.0%; height: 100.0%;">Beijing, China: A major center for biotech in China with a vibrant startup scene, the city is also home to Tsinghua and Peking Universities, leading global institutions in biotech research.</div>`)[0];
                 popup_dbc5baf5be3e48fefb3d871c1befda40.setContent(html_eb46666f470788f1e93bd06f9e15fbc8);
             
         
@@ -349,7 +365,7 @@
 
         
             
-                var html_eebab892972ae5cf2b6f07452a8a945a = $(`<div id="html_eebab892972ae5cf2b6f07452a8a945a" style="width: 100.0%; height: 100.0%;">Shanghai, China</div>`)[0];
+                var html_eebab892972ae5cf2b6f07452a8a945a = $(`<div id="html_eebab892972ae5cf2b6f07452a8a945a" style="width: 100.0%; height: 100.0%;">Shanghai, China: Shanghai is a leading city in China's push towards innovative biotech and pharmaceutical advances.</div>`)[0];
                 popup_001b7cb60c5c692f08805936e52fce38.setContent(html_eebab892972ae5cf2b6f07452a8a945a);
             
         
@@ -370,7 +386,7 @@
 
         
             
-                var html_1ca848cd64c689da0226725710bfe0cc = $(`<div id="html_1ca848cd64c689da0226725710bfe0cc" style="width: 100.0%; height: 100.0%;">Bangalore, India</div>`)[0];
+                var html_1ca848cd64c689da0226725710bfe0cc = $(`<div id="html_1ca848cd64c689da0226725710bfe0cc" style="width: 100.0%; height: 100.0%;">Bangalore, India: Known as India's biotech capital, it hosts a vibrant ecosystem of biotech companies, research institutions, and renowned biotech parks like the BioTech Park Bangalore.</div>`)[0];
                 popup_26f450fb608659ed5ce931742c1f7d80.setContent(html_1ca848cd64c689da0226725710bfe0cc);
             
         
@@ -391,7 +407,7 @@
 
         
             
-                var html_583c095cb0154f6b2f2a0d981930d0e0 = $(`<div id="html_583c095cb0154f6b2f2a0d981930d0e0" style="width: 100.0%; height: 100.0%;">Hyderabad, India</div>`)[0];
+                var html_583c095cb0154f6b2f2a0d981930d0e0 = $(`<div id="html_583c095cb0154f6b2f2a0d981930d0e0" style="width: 100.0%; height: 100.0%;">Dubbed "Genome Valley," it's a major biotech hub with scores of biotechs, including global giant Novartis's technical operations center.</div>`)[0];
                 popup_cf1d22615ba0f0e52cab2e3336cb8b1c.setContent(html_583c095cb0154f6b2f2a0d981930d0e0);
             
         
@@ -412,7 +428,7 @@
 
         
             
-                var html_cb20ef571330752ef8565ff60c6b3cb1 = $(`<div id="html_cb20ef571330752ef8565ff60c6b3cb1" style="width: 100.0%; height: 100.0%;">Toronto, Canada</div>`)[0];
+                var html_cb20ef571330752ef8565ff60c6b3cb1 = $(`<div id="html_cb20ef571330752ef8565ff60c6b3cb1" style="width: 100.0%; height: 100.0%;">Toronto, Canada: Canada's largest biotech hub, it houses numerous life science firms and is near several leading research institutions like the University of Toronto.</div>`)[0];
                 popup_fce2acd703680682f9efe87e763493ed.setContent(html_cb20ef571330752ef8565ff60c6b3cb1);
             
         
@@ -433,7 +449,7 @@
 
         
             
-                var html_39a5a7058bff1b921591ef9644a8f5c0 = $(`<div id="html_39a5a7058bff1b921591ef9644a8f5c0" style="width: 100.0%; height: 100.0%;">Vancouver, Canada</div>`)[0];
+                var html_39a5a7058bff1b921591ef9644a8f5c0 = $(`<div id="html_39a5a7058bff1b921591ef9644a8f5c0" style="width: 100.0%; height: 100.0%;">Vancouver, Canada: Home to a thriving biotech sector, known for strength in health tech, and hosts the annual Life Sciences BC Awards.</div>`)[0];
                 popup_eecd249157c1596a0e4a4ed4a845013e.setContent(html_39a5a7058bff1b921591ef9644a8f5c0);
             
         
